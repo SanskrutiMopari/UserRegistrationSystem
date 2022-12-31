@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class UserRegistration {
 
     final String NAME_PATTERN = "[A-Z][a-z]{2,}";
-    final String EMAIL_PATTERN = "^[a-zA-Z0-9.+_-]+[@][a-zA-Z0-9]+[.]co(m|.in)$";
+    final String EMAIL_PATTERN = "^[a-zA-Z0-9]+[.+-]?[a-zA-Z0-9]+[@][a-zA-Z0-9]+[.][a-zA-Z]+[.]?[a-zA-Z]+$";
     final String MOBILE_NUMBER_PATTERN = "^[0-9]{0,2}[ ][0-9]{10}$";
     final String PASSWORD_PATTERN = "^(?=.*[A-Z]+)(?=.*[0-9]+).{8,}$";
 

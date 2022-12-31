@@ -40,4 +40,16 @@ public class UserRegistrationTest {
         boolean result = userRegistration.validateEmaiId("abc.xyz@bl.co.in");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenMobileNo_WhenProper_ShouldReturnTrue() {
+        boolean result = userRegistration.validateMobileNumber("91 9919819801");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenMobileNo_WhenNotStartWith91_ShouldReturnFalse() {
+        boolean result = userRegistration.validateMobileNumber("9919819801");
+        Assert.assertFalse(result);
+    }
 }

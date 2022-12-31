@@ -9,9 +9,13 @@ public class UserRegistration {
         return patternCheck(firstName, NAME_PATTERN);
     }
 
+    public boolean validateLastName(String lastName) {
+        return patternCheck(lastName, NAME_PATTERN);
+    }
+
     public boolean patternCheck(String input, String fieldPattern) {
-        Pattern pattern1 = Pattern.compile(fieldPattern);
-        Matcher matcher = pattern1.matcher(input);
+        Pattern pattern = Pattern.compile(fieldPattern);
+        Matcher matcher = pattern.matcher(input);
         return matcher.matches();
     }
 }

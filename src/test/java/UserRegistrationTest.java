@@ -16,4 +16,22 @@ public class UserRegistrationTest {
         boolean result = userRegistration.validateFirstName("Sa");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void givenLastName_WhenLessThanThreeChars_ShouldReturnFalse() {
+        boolean result = userRegistration.validateLastName("Mo");
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void givenLastName_WhenHasNumber_ShouldReturnFalse() {
+        boolean result = userRegistration.validateLastName("Mopari1");
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue() {
+        boolean result = userRegistration.validateLastName("Mopari");
+        Assert.assertTrue(result);
+    }
 }

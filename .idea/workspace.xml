@@ -43,12 +43,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue">
-    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenEmailId_WhenProper_ShouldReturnTrue">
+    <configuration name="UserRegistrationTest.givenEmailId_WhenProper_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenEmailId_WhenProper_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenHasSpecialChar_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenHasNumber_ShouldReturnFalse" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenLessThanThreeChars_ShouldReturnFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>

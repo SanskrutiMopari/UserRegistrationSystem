@@ -37,7 +37,7 @@ public class UserRegistrationTest {
 
     @Test
     public void givenEmailId_WhenProper_ShouldReturnTrue() {
-        boolean result = userRegistration.validateEmaiId("abc.xyz@bl.co.in");
+        boolean result = userRegistration.validateEmaiId("abc.100@yahoo.com");
         Assert.assertTrue(result);
     }
 
@@ -51,5 +51,17 @@ public class UserRegistrationTest {
     public void givenMobileNo_WhenNotStartWith91_ShouldReturnFalse() {
         boolean result = userRegistration.validateMobileNumber("9919819801");
         Assert.assertFalse(result);
+    }
+
+    @Test
+    public void givenPasswordPattern_WhenMin8Char_ShouldReturnTrue() {
+        boolean result = userRegistration.validatePasswordPattern("amr@156A");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenPassword_WhenHasMoreThan1SpecialChar_ShouldReturnTrue() {
+        boolean result = userRegistration.validatePasswordPattern("bHar%a#T1");
+        Assert.assertTrue(result);
     }
 }

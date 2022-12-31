@@ -43,32 +43,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenMobileNo_WhenNotStartWith91_ShouldReturnFalse">
+  <component name="RunManager" selected="JUnit.ValidateEmailIdTest.givenEmailId_WhenProper_ShouldReturnExpectedResult">
     <configuration name="UserRegistrationTest.givenEmailId_WhenProper_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
       <option name="METHOD_NAME" value="givenEmailId_WhenProper_ShouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.givenLastName_WhenHasSpecialChar_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenLastName_WhenHasSpecialChar_ShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +64,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenMobileNo_WhenProper_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.givenPasswordPattern_WhenMin8Char_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenMobileNo_WhenProper_ShouldReturnTrue" />
+      <option name="METHOD_NAME" value="givenPasswordPattern_WhenMin8Char_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.givenPassword_WhenHasMoreThan1SpecialChar_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenPassword_WhenHasMoreThan1SpecialChar_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateEmailIdTest.givenEmailId_WhenProper_ShouldReturnExpectedResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateEmailIdTest" />
+      <option name="METHOD_NAME" value="givenEmailId_WhenProper_ShouldReturnExpectedResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest.givenMobileNo_WhenNotStartWith91_ShouldReturnFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenMobileNo_WhenProper_ShouldReturnTrue" />
+        <item itemvalue="JUnit.ValidateEmailIdTest.givenEmailId_WhenProper_ShouldReturnExpectedResult" />
         <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_WhenProper_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenFirstLetterInUpperCase_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenLastName_WhenHasSpecialChar_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_WhenHasMoreThan1SpecialChar_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPasswordPattern_WhenMin8Char_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenMobileNo_WhenNotStartWith91_ShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
